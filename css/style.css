@@ -619,14 +619,9 @@ section{
 .order-container form .order-info table tbody tr td {
     font-size: 1.6rem;
     text-align: center;
-    width: 90rem;
-}
-
-.order-container table {
-    text-align: center;
-    padding-right: 4rem;
     width: 70rem;
 }
+
 
 .order-container form .buttons {
     display: flex;
@@ -960,6 +955,11 @@ section{
     .header .navbar ul.sub-menu li{
         float: none;
     }
+    /* .order-container form .order-info table tbody tr td {
+        font-size: 1.6rem;
+        text-align: center;
+        width: 40rem;
+    } */
 }
 
 @media (max-width:450px){
