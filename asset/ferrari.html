@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="../css/style.css">
+    <title>JayAuto</title>
+    <style>
+        
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+        <div id="menu-btn" class="fas fa-bars"></div>
+        <a href="#" class="logo"> <span>Jay</span>Auto</a>
+        <nav class="navbar">
+
+            <a href="../index.html#homes">Trang Chủ</a>
+            <a class="click-menu">Xe Hơi</div></a>
+            <ul class="sub-menu">
+                <li><a href="../asset/ferrari.html">Ferrari</a></li>
+                <li><a href="../asset/mclaren.html">MCLaren</a></li>
+                <li><a href="../asset/lamborghini.html">Lamborghini</a></li>
+                <li><a href="../asset/bugatti.html">Bugatti</a></li>
+            </ul>
+            <a href="../index.html#services">Dịch Vụ</a>
+            <a href="../index.html#featured">Nổi Bật</a>
+            <a href="../index.html#reviews">Đánh Giá</a>
+            <a href="#contact">Liên Hệ</a>
+
+
+        </nav>
+        <div id="login-btn">
+            <button class="btn">Đăng Nhập</button>
+            <i class="far fa-user"></i>
+        </div>
+    </header>
+
+    <div class="login-form-container">
+        <span id="close-login-form" class="fas fa-times"></span>
+        <form action="">
+            <h3>Đăng Nhập</h3>
+            <input type="email" placeholder="Địa chỉ Email" class="box">
+            <input type="password" placeholder="Mật Khẩu" class="box">
+            <p> Quên mật khẩu? <a href="#">Bấm vào đây!</a> </p>
+            <input type="submit" value="login" class="btn">
+            <p>Đăng nhập với</p>
+            <div class="buttons">
+                <a href="#" class="btn"> Google </a>
+                <a href="#" class="btn"> Facebook </a>
+            </div>
+            <p>Bạn chưa có tài khoản? <a href="#">Tạo một cái mới!</a> </p>
+        </form>
+    </div>
+
+
+    <section class="home" id="home">
+        <h3 data-speed="-2" class="home-parallax">Ferrari</h3>
+        <img data-speed="5" class="home-parallax" src="../image/ferrari-img.jpg" alt="">
+        <a data-speed="7" href="#featured" class="btn home-parallax">Khám Phá</a>
+    </section>
+
+    <section class="featured" id="featured">
+        <h1 class="heading"> Xe hơi <span>nổi bật</span></h1>
+        <div class="swiper featured-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box" data-name="car-1">
+                    <img src="../image/ferrari/car-1.jpg" alt="">
+                    <div class="content">
+                        <h3>Ferrari LaFerrari</h3>
+                        <p>
+                            Động cơ V12 6.3L
+                            <span class="fas fa-circle"></span> Công suất 950HP
+                            <span class="fas fa-circle"></span> Tốc độ tối đa 350km/h
+                            <span class="fas fa-circle"></span> 2 chỗ
+                        </p>
+                        <div class="price">$1,420,000</div>
+                        <div class="info-btn">Xem thêm</div>
+                    </div>
+                </div>
+                <div class="swiper-slide box" data-name="car-2">
+                    <img src="../image/ferrari/car-2.jpg" alt="">
+                    <div class="content">
+                        <h3>Ferrari SF90 Stradale</h3>
+                        <p>
+                            Động cơ V12 6.5L
+                            <span class="fas fa-circle"></span> Công suất 986HP
+                            <span class="fas fa-circle"></span> Tốc độ tối đa 340km/h
+                            <span class="fas fa-circle"></span> 2 chỗ
+                        </p>
+                        <div class="price">$600,000</div>
+                        <div class="info-btn">Xem thêm</div>
+                    </div>
+                </div>
+                <div class="swiper-slide box" data-name="car-3">
+                    <img src="../image/ferrari/car-3.jpg" alt="">
+                    <div class="content">
+                        <h3>Ferrari F12 Berlinetta</h3>
+                        <p>
+                            Động cơ V12 6.3L
+                            <span class="fas fa-circle"></span> Công suất 730HP
+                            <span class="fas fa-circle"></span> Tốc độ tối đa 350km/h
+                            <span class="fas fa-circle"></span> 2 chỗ
+                        </p>
+                        <div class="price">$324,000</div>
+                        <div class="info-btn">Xem thêm</div>
+                    </div>
+                </div>
+                <div class="swiper-slide box" data-name="car-4">
+                    <img src="../image/ferrari/car-4.jpg" alt="">
+                    <div class="content">
+                        <h3>Ferrari 812 Superfast</h3>
+                        <p>
+                            Động cơ V12 6.5L
+                            <span class="fas fa-circle"></span> Công suất 789HP
+                            <span class="fas fa-circle"></span> Tốc độ tối đa 339km/h
+                            <span class="fas fa-circle"></span> 2 chỗ
+                        </p>
+                        <div class="price">$338,000</div>
+                        <div class="info-btn">Xem thêm</div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+        <div class="swiper featured-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box" data-name="car-5">
+                    <img src="../image/ferrari/car-5.jpg" alt="">
+                    <div class="content">
+                        <h3>Ferrari 812 GTS</h3>
+                        <p>
+                            Động cơ V10 5.2L
+                            <span class="fas fa-circle"></span> Công suất 631HP
+                            <span class="fas fa-circle"></span> Tốc độ tối đa 320km/h
+                            <span class="fas fa-circle"></span> 2 chỗ
+                        </p>
+                        <div class="price">$364,000</div>
+                        <div class="info-btn">Xem thêm</div>
+                    </div>
+                </div>
+                <div class="swiper-slide box" data-name="car-6">
+                    <img src="../image/ferrari/car-6.jpg" alt="">
+                    <div class="content">
+                        <h3>Ferrari 488 GTB</h3>
+                        <p>
+                            Động cơ V8 3.9L
+                            <span class="fas fa-circle"></span> Công suất 670HP
+                            <span class="fas fa-circle"></span> Tốc độ tối đa 310km/h
+                            <span class="fas fa-circle"></span> 2 chỗ
+                        </p>
+                        <div class="price">$257,000</div>
+                        <div class="info-btn">Xem thêm</div>
+                    </div>
+                </div>
+                <div class="swiper-slide box" data-name="car-7">
+                    <img src="../image/ferrari/car-7.jpg" alt="">
+                    <div class="content">
+                        <h3>Ferrari 488 Pista</h3>
+                        <p>
+                            Động cơ V12 6.5L
+                            <span class="fas fa-circle"></span> Công suất 820HP
+                            <span class="fas fa-circle"></span> Tốc độ tối đa 350km/h
+                            <span class="fas fa-circle"></span> 2 chỗ
+                        </p>
+                        <div class="price">$350,000</div>
+                        <div class="info-btn">Xem thêm</div>
+                    </div>
+                </div>
+                <div class="swiper-slide box" data-name="car-8">
+                    <img src="../image/ferrari/car-8.jpg" alt="">
+                    <div class="content">
+                        <h3>Ferrari F8 Tributo</h3>
+                        <p>
+                            Động cơ V8 4L
+                            <span class="fas fa-circle"></span> Công suất 770HP
+                            <span class="fas fa-circle"></span> Tốc độ tối đa 320km/h
+                            <span class="fas fa-circle"></span> 4 chỗ
+                        </p>
+                        <div class="price">$1,068,000</div>
+                        <div class="info-btn">Xem thêm</div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section class="car-info-container">
+
+        <div id="close-info" class="fas fa-times"></div>
+
+        <div class="car-info" data-target="car-1">
+            <img src="../image/ferrari/car-1.jpg" alt="">
+            <div class="review">
+                <h3>Lamborghini Aventador SVJ</h3>
+                <p>Kích thước DxRxC (mm): 4943 x 2273 x 1136 <br>
+                    Trọng lượng: 1525Kg - Động cơ V12 6.5L: hút khí tự nhiên <br>
+                    Công suất: 770HP - Hộp số: ISR 7 cấp <br>
+                    Vận tốc tối đa: 350 Km/h - Chế độ lái Strada, Sport, Corsa, Ego
+                </p>
+                <div class="order-btn">Đặt Xe</div>
+            </div>
+        </div>
+        <div class="car-info" data-target="car-2">
+            <img src="../image/ferrari/car-2.jpg" alt="">
+            <div class="review">
+                <h3>Lamborghini Aventador S</h3>
+                <p>Kích thước DxRxC (mm): 4797 x 2265 x 1136 <br>
+                    Trọng lượng: 1575Kg - Động cơ V12 6.5L <br>
+                    Công suất: 740HP - Hộp số: Bán tự động 7 cấp <br>
+                    Vận tốc tối đa: 350 Km/h - Chế độ lái: Strada, Sport, Corsa, Ego
+                </p>
+                <div class="order-btn">Đặt Xe</div>
+            </div>
+        </div>
+        <div class="car-info" data-target="car-3">
+            <img src="../image/ferrari/car-3.jpg" alt="">
+            <div class="review">
+                <h3>Lamborghini Aventador LP</h3>
+                <p>Kích thước DxRxC (mm): 4780 x 2030 x 1136 <br>
+                    Trọng lượng: 1575Kg - Động cơ V12 6.5L<br>
+                    Công suất: 700HP - Hộp số: ISR 7 cấp <br>
+                    Vận tốc tối đa: 350 Km/h - Chế độ lái Strada, Sport, Corsa, Ego
+                </p>
+                <div class="order-btn">Đặt Xe</div>
+            </div>
+        </div>
+        <div class="car-info" data-target="car-4">
+            <img src="../image/ferrari/car-4.jpg" alt="">
+            <div class="review">
+                <h3>Lamborghini Huracan</h3>
+                <p>Kích thước DxRxC (mm): 4506 x 2236 x 1165 <br>
+                    Trọng lượng: 1382Kg - Động cơ V10 5.2L<br>
+                    Công suất: 631HP - Hộp số: 7 cấp <br>
+                    Vận tốc tối đa: 320 Km/h - Chế độ lái Strada, Sport, Corsa, Ego
+                </p>
+                <div class="order-btn">Đặt Xe</div>
+            </div>
+        </div>
+        <div class="car-info" data-target="car-5">
+            <img src="../image/ferrari/car-5.jpg" alt="">
+            <div class="review">
+                <h3>Huracan Performante</h3>
+                <p>Kích thước DxRxC (mm): 4506 x 2236 x 1165 <br>
+                    Trọng lượng: 1382Kg - Động cơ V10 5.2L <br>
+                    Công suất: 631HP - Hộp số: ISR 7 cấp <br>
+                    Vận tốc tối đa: 320 Km/h - Chế độ lái Strada, Sport, Corsa, Ego
+                </p>
+                <div class="order-btn">Đặt Xe</div>
+            </div>
+        </div>
+        <div class="car-info" data-target="car-6">
+            <img src="../image/ferrari/car-6.jpg" alt="">
+            <div class="review">
+                <h3>Lamborghini Huracan STO</h3>
+                <p>Kích thước DxRxC (mm): 4549x 1945x 1220 <br>
+                    Trọng lượng: 1339Kg - Động cơ V10 5.2L<br>
+                    Công suất: 631HP - Hộp số: 7 cấp <br>
+                    Vận tốc tối đa: 310 Km/h - Chế độ lái Strada, Sport, Corsa, Ego
+                </p>
+                <div class="order-btn">Đặt Xe</div>
+            </div>
+        </div>
+        <div class="car-info" data-target="car-7">
+            <img src="../image/ferrari/car-7.jpg" alt="">
+            <div class="review">
+                <h3>Lamborghini Sian SKP</h3>
+                <p>Kích thước DxRxC (mm): 4980 x 2101 x 1133 <br>
+                    Trọng lượng: 1525Kg - Động cơ V12 6.5L<br>
+                    Công suất: 820HP - Hộp số: AT <br>
+                    Vận tốc tối đa: 350 Km/h - Chế độ lái Strada, Sport, Corsa, Ego
+                </p>
+                <div class="order-btn">Đặt Xe</div>
+            </div>
+        </div>
+        <div class="car-info" data-target="car-8">
+            <img src="../image/ferrari/car-8.jpg" alt="">
+            <div class="review">
+                <h3>Lamborghini Urus</h3>
+                <p>Kích thước DxRxC (mm): 5112 x 2016 x 1638 <br>
+                    Trọng lượng: 2200Kg - Động cơ V8 4L<br>
+                    Công suất: 770HP - Hộp số: AT <br>
+                    Vận tốc tối đa: 320 Km/h - Chế độ lái Strada, Sport, Corsa, Ego
+                </p>
+                <div class="order-btn">Đặt Xe</div>
+            </div>
+        </div>
+    </section>
+
+    <div class="order-container">
+        <span id="close-order" class="fas fa-times"></span>
+        <form action="">
+            <h3>Đơn Đặt Xe</h3>
+            <div class="order-info">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td> demo </td>
+                            <td> Năm:<select name="Năm Sản Xuất" id="year">
+                                    <option value="2018">2018</option>
+                                    <option value="2019">2019</option>
+                                    <option value="2020">2020</option>
+                                    <option value="2022">2021</option>
+                                </select></td>
+                            <td>Màu Xe:<select name="Màu sắc" id="color">
+                                    <option value="red">Red</option>
+                                    <option value="yellow">Yellow</option>
+                                    <option value="blue">Blue</option>
+                                    <option value="green">Green</option>
+                                    <option value="white">White</option>
+                                    <option value="black">Black</option>
+                                </select> </td>
+                            <td> Nhận Xe: <select name="Nhận Xe" id="shiping">
+                                    <option value="1">Cửa Hàng</option>
+                                    <option value="2">Tại Nhà</option>
+                                    <option value="3">Vận Chuyển</option>
+                                </select> </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <table>
+                <tr>
+                    <th><input type="Text" placeholder="Họ" class="box"></th>
+                    <th><input type="Text" placeholder="Tên" class="box"></th>
+                </tr>
+            </table>
+            <input type="email" placeholder="Email" class="box">
+            <input type="text" placeholder="Địa chỉ" class="box">
+            <input type="tel" placeholder="Số điện thoại" class="box">
+            <div class="submit-btn">Đặt Xe</div>
+        </form>
+    </div>
+
+    <div class="order-notify">
+        <form action="">
+            <h3>Đặt xe thành công! Sẽ có nhân viên gọi điện xác nhận!</h3>
+            <div class="btn"><a href="../index.html#homes">Trang Chủ</a></div>
+        </form>
+    </div>
+
+    <section class="newsletter">
+        <h3>đăng ký để cập nhật mới nhất</h3>
+        <p></p>
+        <form action="">
+            <input type="email" placeholder="Nhập địa chỉ Email của bạn">
+            <input type="submit" value="Đăng kí">
+        </form>
+    </section>
+
+    <section class="contact" id="contact">
+        <h1 class="heading">Liên Hệ <span>với Chùng tôi</span></h1>
+        <div class="row">
+            <form action="">
+                <h3>Liên lạc</h3>
+                <input type="text" placeholder="Họ Tên" class="box">
+                <input type="email" placeholder="Địa chỉ Email" class="box">
+                <input type="tel" placeholder="SĐT" class="box">
+                <textarea placeholder="Lời Nhắn" class="box" cols="30" rows="10"></textarea>
+                <input type="submit" value="Gửi" class="btn">
+            </form>
+        </div>
+    </section>
+
+    <section class="footer" id="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>Chi Nhánh</h3>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Buôn Ma Thuột </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Hồ Chí Minh </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Đà Nẵng </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Hà Nội </a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i> Đà Lạt </a>
+            </div>
+
+            <div class="box">
+                <h3>Liên Kết Nhanh</h3>
+                <a href="#"> <i class="fas fa-arrow-right"></i> Trang Chủ </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> Xe hơi </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> Dịch Vụ </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> Nổi Bật </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> Đánh Giá </a>
+                <a href="#"> <i class="fas fa-arrow-right"></i> Liên Hệ </a>
+            </div>
+
+            <div class="box">
+                <h3>Thông Tin Liên Hệ</h3>
+                <a href="#"> <i class="fas fa-phone"></i> 0915975198 </a>
+                <a href="#"> <i class="fas fa-phone"></i> 0782588720 </a>
+                <a href="#"> <i class="fas fa-envelope"></i> seanobita08@gmail.com </a>
+                <a href="#"> <i class="fas fa-envelope"></i> younext08@gmail.com </a>
+            </div>
+
+            <div class="box">
+                <h3>Thông Tin Liên Hệ</h3>
+                <a href="https://www.facebook.com/NT.Joker.08"> <i class="fab fa-facebook-f"></i> Tuấn Nguyễn </a>
+                <a href="https://www.facebook.com/datlee032002"> <i class="fab fa-facebook-f"></i> Đạt Lê </a>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="../js/script.js"></script>
+    <script>
+        
+    </script>
+</body>
+
+</html>
